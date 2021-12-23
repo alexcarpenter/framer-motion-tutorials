@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 150%;
+}
+
+body {
+  padding: 6.25rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  color: black;
+}
+
+.shadow {
+  position: absolute;
+  inset: 0;
+  background-color: lightGray;
+  border-radius: 4px;
+  z-index: -1;
+}
